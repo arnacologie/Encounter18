@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.jerem.test.mCommingSoon;
+
 public class MainActivity extends AppCompatActivity{
 
     Button mLunchBtn;
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity{
             @Override
             public void onClick(View view) {
 
-                Intent sharedIntent = new Intent(MainActivity.this, LunchActivity.class);
+                Intent sharedIntent = new Intent(MainActivity.this, mCommingSoon.class);
 
                 ActivityOptions options = ActivityOptions
                         .makeSceneTransitionAnimation(MainActivity.this, mLunchBtn, "lunchTransition");
@@ -34,3 +36,4 @@ public class MainActivity extends AppCompatActivity{
         });
     }
 }
+

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mFeedback"
+    android:background="#cac98f"
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/croix2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="101dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/flecherose"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <RadioButton
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:layout_marginLeft="4dp"
+        android:text="Feedback/Ton avis"
+        android:textColor="#DB4F69"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sujet de prière"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="365dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="26dp"
+        android:textColor="#DB4F69"
+        />
+
+    <RadioButton
+        android:id="@+id/checkbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suggestion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="365dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="45dp"
+        android:textColor="#DB4F69"
+        />
+
+
+    <RadioButton
+        android:id="@+id/checkbox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autre"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="365dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="80dp"
+        android:textColor="#DB4F69"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="406dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="190dp"
+        android:text="jeremy.gillot@gmail.com,jeremy.gillot@hotmail.fr"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Envoyer"
+        android:background="#DB4F69"
+        android:textColor="#cac98f"
+        tools:layout_editor_absoluteX="391dp"
+        tools:layout_editor_absoluteY="659dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="290dp"
+        />
+
+</android.support.constraint.ConstraintLayout>
