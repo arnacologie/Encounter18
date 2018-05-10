@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity{
             @Override
             public void onClick(View view) {
 
-                Intent sharedIntent = new Intent(MainActivity.this, mCommingSoon.class);
+                Intent sharedIntent = new Intent(MainActivity.this, LunchActivity.class);
 
                 ActivityOptions options = ActivityOptions
                         .makeSceneTransitionAnimation(MainActivity.this, mLunchBtn, "lunchTransition");
