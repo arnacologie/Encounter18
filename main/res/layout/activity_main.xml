@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/enc18_website_phone"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/homepageImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ythfr" />
+
+            <TextView
+                android:id="@+id/annonceTxt"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@color/black"
+                android:fontFamily="@font/anton_regular"
+                android:gravity="center"
+                android:text="@string/annonce_text"
+                android:textAlignment="center"
+                android:textColor="@color/orange"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="50dp">
+
+                <Button
+                    android:id="@+id/ProgrammeBtn"
+                    android:layout_width="263dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="70dp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/anton_regular"
+                    android:paddingBottom="10dp"
+                    android:text="@string/programmeBtn"
+                    android:textColor="@color/black"
+                    android:textSize="45sp" />
+
+                <Button
+                    android:id="@+id/LunchBtn"
+                    android:layout_width="263dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="70dp"
+                    android:background="@color/black"
+                    android:fontFamily="@font/anton_regular"
+                    android:paddingBottom="10dp"
+                    android:text="@string/lunchBtn"
+                    android:textColor="@color/orange"
+                    android:transitionName="lunchTransition"
+                    android:textSize="45sp" />
+
+                <Button
+                    android:id="@+id/BoutiqueBtn"
+                    android:layout_width="263dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="70dp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/anton_regular"
+                    android:paddingBottom="10dp"
+                    android:text="@string/boutiqueBtn"
+                    android:textColor="@color/black"
+                    android:textSize="45sp" />
+
+                <Button
+                    android:id="@+id/FeedbackBtn"
+                    android:layout_width="263dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="70dp"
+                    android:background="@color/jaune_pale"
+                    android:fontFamily="@font/anton_regular"
+                    android:paddingBottom="10dp"
+                    android:text="@string/feedbackBtn"
+                    android:textColor="@color/rose"
+                    android:textSize="45sp" />
+
+                <Button
+                    android:id="@+id/InvitesBtn"
+                    android:layout_width="263dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="70dp"
+                    android:background="@color/white"
+                    android:fontFamily="@font/anton_regular"
+                    android:paddingBottom="10dp"
+                    android:text="@string/invitesBtn"
+                    android:textColor="@color/black"
+                    android:textSize="45sp" />
+
+                <Button
+                    android:id="@+id/ComingSoonBtn"
+                    android:layout_width="263dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:background="@color/black"
+                    android:fontFamily="@font/anton_regular"
+                    android:paddingBottom="10dp"
+                    android:text="@string/coming_soonBtn"
+                    android:textColor="@color/orange"
+                    android:textSize="45sp" />
+            </LinearLayout>
+            <fragment
+                android:id="@+id/mapFragment"
+                android:name="fr.hillsongcoding.encounter18.MapFragmentHomepage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
