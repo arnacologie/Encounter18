@@ -1,32 +1,36 @@
-<resources> <string name="programme_name">Programme</string>
-<string name="Vendredi_name">VENDREDI</string>
-<string name="text1Vendredi_name">"<b>18:30:OUVERTURE ENREGISTREMENT/\nOUVERTURE FOYER</b>"</string>
-<string name="text2Vendredi_name">"(Venez tôt pour récupérer vos bracelets d'accès et profiter du foyer,des produits de la conférence,ect..)"</string>
-<sring name="text3Vendredi_name"><b>20h00:SESSION DU SOIR</b></string>
-<string name="text4Vendredi_name">"<b>22h15:FIN</b>"</string>
-<string name="text5Vendredi_name"><b>23h15:FERMETURE DU FOYER</b></string>
-<string name="text1Samedi_Matin_name">"<b>8:30:OUVERTURE ENREGISTREMENT/\nOUVERTURE FOYER</b>"</string>
-<string name="text2Samedi_Matin_name">"<b>9:30:SESSION 1</b>"</string>
-<string name="text3Samedi_Matin_name">"<b>11:00:SESSION 2</b>"</string>
-<string name="text4Samedi_Matin_name">"<b>12:30:PAUSE DÉJEUNER</b>\n(Profitez,il y a pleins de restos dans le coin,n'hésiter\npas à demander à nos équipes au Point d'infos)"</string>
-<string name="samedi_aprem_soir"><b>SAMEDI APRÈS-MIDI\n &SOIR</b></string>
-<string name="samedi_aprem_soir2"><b>14h00:SESSION 3</b></string>
-<string name="samedi_aprem_soir3"><b>15h00:SESSION 4</b></string>
-<string name="samedi_aprem_soir4"><b>16h00:PAUSE</b></string>
-<string name="samedi_aprem_soir5"><b>18h00:SESSION FINAL</b></string>
-<string name="samedi_aprem_soir6"><b>20h30:FIN</b></string>
-<string name="samedi_aprem_soir7"><b>21h30:FERMETURE FOYER</b></string>-<string name="note"><b>A NOTER QUE CES HORAIRES SONT APPROXIMATIFS\nET SUSCEPTIBLES DE CHANGER.</b></string>
-<string name="evenement1">30 mai : soirée PH</string>
-<string name="evenement2">SummerCamp (Wildlife)</string>
-<string name="evenement3">SummerFest (PH)</string>
-<string name="annonce_text">LES ANNONCES EN DIRECT SERONT ICI !</string>
-<string name="programmeBtn">PROGRAMME</string>
-<string name="lunchBtn">LUNCH</string>
-<string name="boutiqueBtn">BOUTIQUE</string>
-<string name="feedbackBtn">FEEDBACK</string>
-<string name="invitesBtn">INVITES</string>
-<string name="coming_soonBtn">COMING SOON</string>
-
-<!-- TODO: Remove or change this placeholder text -->
-<string name="hello_blank_fragment">Hello blank fragment</string>
+<resources>
+    <string name="app_name">test</string>
+    <string name="programme_name">Programme</string>
+    <string name="Vendredi_name">VENDREDI</string>
+    <string name="text1Vendredi_name">"<b>18:30:OUVERTURE ENREGISTREMENT/\nOUVERTURE FOYER</b>"</string>
+    <string name="text2Vendredi_name">"(Venez tôt pour récupérer vos bracelets d'accès et
+        profiter du foyer,des produits de la conférence,ect..)"</string>
+    <string name="text3Vendredi_name">"<b>20h00:SESSION DU SOIR</b>"</string>
+    <string name="text4Vendredi_name">"<b>22h15:FIN</b>"</string>
+    <string name="text5Vendredi_name">"<b>23h15:FERMETURE DU FOYER</b>"</string>
+    <string name="text1Samedi_Matin_name">"<b>8:30:OUVERTURE ENREGISTREMENT/\nOUVERTURE FOYER</b>"</string>
+    <string name="text2Samedi_Matin_name">"<b>9:30:SESSION 1</b>"</string>
+    <string name="text3Samedi_Matin_name">"<b>11:00:SESSION 2</b>"</string>
+    <string name="text4Samedi_Matin_name">"<b>12:30:PAUSE DÉJEUNER</b>\n(Profitez,il y a pleins de restos dans le coin,n'hésiter\npas à demander à nos équipes au Point d'infos)"</string>
+    <string name="title_activity_test2">test2</string>
+    <string name="samedi_aprem_soir"><b>SAMEDI APRÈS-MIDI\n &amp;SOIR</b></string>
+    <string name="samedi_aprem_soir2"><b>14h00:SESSION 3</b></string>
+    <string name="samedi_aprem_soir3"><b>15h00:SESSION 4</b></string>
+    <string name="samedi_aprem_soir4"><b>16h00:PAUSE</b></string>
+    <string name="samedi_aprem_soir5"><b>18h00:SESSION FINAL</b></string>
+    <string name="samedi_aprem_soir6"><b>20h30:FIN</b></string>
+    <string name="samedi_aprem_soir7"><b>21h30:FERMETURE FOYER</b></string>
+    <string name="note"><b>A NOTER QUE CES HORAIRES SONT APPROXIMATIFS\nET SUSCEPTIBLES DE CHANGER.</b></string>
+    <string name="evenement1">30 mai : soirée PH</string>
+    <string name="evenement2">SummerCamp (Wildlife)</string>
+    <string name="evenement3">SummerFest (PH)</string>
+    <string name="annonce_text">LES ANNONCES EN DIRECT SERONT ICI !</string>
+    <string name="programmeBtn">PROGRAMME</string>
+    <string name="lunchBtn">LUNCH</string>
+    <string name="boutiqueBtn">BOUTIQUE</string>
+    <string name="feedbackBtn">FEEDBACK</string>
+    <string name="invitesBtn">INVITES</string>
+    <string name="coming_soonBtn">COMING SOON</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
