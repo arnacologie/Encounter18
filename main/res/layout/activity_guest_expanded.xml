@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuestExpandedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/clouds">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/peter_image"
+            android:layout_width="143dp"
+            android:layout_height="134dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:transitionName="imageTransition"
+            android:src="@drawable/peter_toggs" />
+
+        <TextView
+            android:id="@+id/peter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/anton_regular"
+            android:layout_gravity="center"
+            android:text="Peter Toggs"
+            android:textColor="@color/black"
+            android:transitionName="nameTransition"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/ministry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Youth Pastor"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:transitionName="ministryTransition"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/church_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hillsong Australie"
+            android:textColor="@color/black"
+            android:transitionName="churchTransition"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/bioPart1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:lineSpacingMultiplier="1.6"
+            android:padding="20dp"
+            android:text="Pasteur de jeunes avec sa femme Laura AKA \n &quot;les Toggsys&quot; à Hillsong Church en Australie, Ils sont passionnés de voir le mouvement"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bioPart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="20dp"
+            android:text="Young &amp; Free"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="45sp"
+            android:fontFamily="@font/anton_regular"/>
+
+        <TextView
+            android:id="@+id/bioPart3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:lineSpacingMultiplier="1.6"
+            android:padding="20dp"
+            android:text="déferler à travers toute la planète et de donner l'opportunité de vivre une vie pleine de joie et de liberté à travers une relation personnelle avec"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bioPart4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="20dp"
+            android:text="Jésus Christ"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="45sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/anton_regular"/>
+
+        <TextView
+            android:id="@+id/bioPart5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:lineSpacingMultiplier="1.6"
+            android:padding="20dp"
+            android:text="Fun fact : Peter se retrouve souvent en train de manger un bucket de poulet (#TeamChicken) \n \n Autant que dans leur mission pastorale auprès des jeunes, ils ont cette passion de donner une voix à cette génération en leadant la team worship Y&amp;F australienne. Mais par dessus tout, leur principal travail est en tant que parents pleins d'amour pour leurs deux enfants Willow &amp; Jack"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</ScrollView>

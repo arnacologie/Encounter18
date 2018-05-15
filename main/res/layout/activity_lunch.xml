@@ -10,9 +10,9 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_gravity="center"
         android:fontFamily="@font/anton_regular"
         android:text="LUNCH"
         android:textAlignment="center"
@@ -29,6 +29,15 @@
         android:fontFamily="@font/anton_regular"
         android:textColor="@color/orange"
         android:textSize="20sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Picnic sur les toits de la Gare Montparnasse"
+        android:fontFamily="@font/anton_regular"
+        android:textColor="@color/orange"
+        android:textSize="14sp"
         android:gravity="center"/>
 
     <android.support.v7.widget.CardView

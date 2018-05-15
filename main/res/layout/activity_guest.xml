@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enc18_website_phone"
+    tools:context=".GuestActivity">
+
+    <LinearLayout
+        android:layout_width="285dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@drawable/layout_bg"
+        android:id="@+id/guestLayout">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/peter_image"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/peter_toggs"
+            android:layout_gravity="center"
+            android:transitionName="imageTransition"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/peter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peter Toggs"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:transitionName="nameTransition"
+            android:fontFamily="@font/anton_regular"/>
+
+        <TextView
+            android:id="@+id/ministry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Youth Pastor"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:transitionName="ministryTransition"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/church_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hillsong Australie"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:transitionName="churchTransition"
+            android:textSize="10sp"/>
+
+    </LinearLayout>
+</RelativeLayout>

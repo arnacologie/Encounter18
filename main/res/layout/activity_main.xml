@@ -47,7 +47,7 @@
                 android:paddingVertical="50dp">
 
                 <Button
-                    android:id="@+id/ProgrammeBtn"
+                    android:id="@+id/ProgramBtn"
                     android:layout_width="263dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
@@ -74,7 +74,7 @@
                     android:textSize="45sp" />
 
                 <Button
-                    android:id="@+id/BoutiqueBtn"
+                    android:id="@+id/StoreBtn"
                     android:layout_width="263dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
@@ -100,7 +100,7 @@
                     android:textSize="45sp" />
 
                 <Button
-                    android:id="@+id/InvitesBtn"
+                    android:id="@+id/GuestBtn"
                     android:layout_width="263dp"
                     android:layout_height="150dp"
                     android:layout_gravity="center"

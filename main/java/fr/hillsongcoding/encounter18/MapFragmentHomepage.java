@@ -59,8 +59,8 @@ public class MapFragmentHomepage extends Fragment implements OnMapReadyCallback{
             MapsInitializer.initialize(getContext());
             mGoogleMap = googleMap;
             googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
-            googleMap.addMarker(new MarkerOptions().position(new LatLng(48.839865, 2.323008)).title("Bobino").snippet("Hillsong Paris"));
-            CameraPosition Bobino = CameraPosition.builder().target(new LatLng(48.839865, 2.323008)).zoom(15).bearing(0).tilt(0).build();
+            googleMap.addMarker(new MarkerOptions().position(new LatLng(48.839905, 2.322998)).title("Bobino").snippet("Hillsong Paris"));
+            CameraPosition Bobino = CameraPosition.builder().target(new LatLng(48.839905, 2.322998)).zoom(15).bearing(0).tilt(0).build();
             googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(Bobino));
         }
 
